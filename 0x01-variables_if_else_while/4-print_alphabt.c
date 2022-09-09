@@ -10,7 +10,7 @@ int main(void)
 	letter = 'a';
 	while (letter <= 'z')
 	{
-		if (letter == 'e' || letter == 'q')
+		if (letter == 'e')
 		{
 			continue;
 		}
