@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <time.h>
 #include <stdlib.h>
 /**
  * main - to print whether a number is positive negative or zer0
@@ -7,8 +8,8 @@
 int main(void)
 {
 int n;
-     printf("enter the number: ");
-     scanf("%d", &n);
+srand(time(0));
+	n = rand() - RAND_MAX / 2;
      if (n > 0)
      {
 	printf("The number is positive\n");
