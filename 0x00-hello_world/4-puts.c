@@ -2,6 +2,8 @@
 /**
  * main - Entry point
  *
+ * Description: print out the given text
+ *
  * Return : 0
  */
 int main(void)
