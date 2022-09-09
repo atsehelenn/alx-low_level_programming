@@ -8,7 +8,7 @@ int main(void)
 {
 int n;
      printf("enter the number: ");
-     scanf("%d", n);
+     scanf("%d", &n);
      if (n > 0)
      {
 	printf("The number is positive\n");
@@ -18,6 +18,8 @@ else if (n == 0)
 	 printf("The number is zero\n");
 }
 else 
+{
  printf("The number  is negative");
+}
  return (0);
  }
