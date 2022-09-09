@@ -1,10 +1,12 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
- * main - print "and that piece of art is useful" - Dora Korpar, 2015-10-19"
- * Return: 0 if exited properly,non-zero otherwise
-*/
+ * main - Prints out the last part of a quote in the standard error.
+ * Return: 1 if success.
+ */
 int main(void)
 {
-	fprintf(stderr,"and that piece of art is useful" - Dora Korpar, 2015-10-19);
-		return (0);
+	write(2, "and that piece of art is useful - Dora Korpar, 2015-10-19\n", 58);
+
+			return (1);
 }
