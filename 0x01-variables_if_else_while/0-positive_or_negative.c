@@ -3,6 +3,7 @@
 /**
  * main - to print whether a number is positive negative or zer0
  * Return: Always 0 (Success)
+*/
 int main(void)
 {
 int n;
