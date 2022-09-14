@@ -727,10 +727,12 @@ extern int __overflow (FILE *, int);
 
 
 
-# 5 "1-alphabet.c"
-void print_alphabet(void);
+
+# 6 "1-alphabet.c"
+void print_alphabet(void)
 {
  char letter;
+
  letter = 'a';
  while (letter >= 'z')
  {
@@ -738,5 +740,4 @@ void print_alphabet(void);
   letter++;
  }
  putchar('\n');
- return (void);
 }
