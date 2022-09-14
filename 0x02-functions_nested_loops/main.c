@@ -729,9 +729,9 @@ extern int __overflow (FILE *, int);
 
 
 # 6 "1-alphabet.c"
-void print_alphabet(void);
+void print_alphabet(void)
 {
- char letter;
+ int letter;
 
  letter = 'a';
  while (letter >= 'z')
