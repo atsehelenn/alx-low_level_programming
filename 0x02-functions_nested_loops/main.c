@@ -1,11 +1,10 @@
-# 1 "0-putchar.c"
+# 1 "1-alphabet.c"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 31 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 32 "<command-line>" 2
-# 1 "0-putchar.c"
-
+# 1 "1-alphabet.c"
 # 1 "/usr/include/stdio.h" 1 3 4
 # 27 "/usr/include/stdio.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/libc-header-start.h" 1 3 4
@@ -723,22 +722,21 @@ extern int __uflow (FILE *);
 extern int __overflow (FILE *, int);
 # 873 "/usr/include/stdio.h" 3 4
 
-# 3 "0-putchar.c" 2
+# 2 "1-alphabet.c" 2
 
 
 
 
-
-# 7 "0-putchar.c"
-int main(void)
+# 5 "1-alphabet.c"
+void print_alphabet(void);
 {
- char *a = "_putchar";
-
- while (*a)
+ char letter;
+ letter = 'a';
+ while (letter >= 'z')
  {
-  putchar(*a);
-  a++;
+  putchar(letter);
+  letter++;
  }
  putchar('\n');
- return (0);
+ return (void);
 }
