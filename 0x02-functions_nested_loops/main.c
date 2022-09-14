@@ -736,9 +736,9 @@ int main(void)
 
  while (*a)
  {
-  _putchar(*a);
-  *a++;
+  putchar(*a);
+  a++;
  }
- _putchar('\n');
+ putchar('\n');
  return (0);
 }
