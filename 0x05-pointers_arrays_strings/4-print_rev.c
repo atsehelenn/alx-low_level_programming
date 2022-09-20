@@ -10,7 +10,7 @@ void print_rev(char *s)
 	char *d, ted;
         
 	d = s;
-	while (s[c] != '\n')
+	while (s[c] != '\0')
 	{
 		c++;
 	}
