@@ -8,7 +8,7 @@ void print_rev(char *s)
 {
 	int a, b, c;
 	char *d, ted;
-        
+
 	d = s;
 	while (s[c] != '\0')
 	{
@@ -18,7 +18,7 @@ void print_rev(char *s)
 	{
 		d++;
 	}
-	for (a = 0; a < (c/2); a++)
+	for (a = 0; a < (c / 2); a++)
 	{
 		ted = s[a];
 		s[a] = *d;
