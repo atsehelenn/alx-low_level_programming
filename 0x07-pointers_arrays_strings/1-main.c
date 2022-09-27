@@ -9,7 +9,7 @@
 void simple_print_buffer(char *buffer, unsigned int size)
 {
 	unsigned int i;
-	
+
 	i = 0;
 	while (i < size)
 	{
@@ -24,11 +24,11 @@ void simple_print_buffer(char *buffer, unsigned int size)
 		printf("0x%02x", buffer[i]);
 		i++;
 	}
-	 printf("\n");
+	printf("\n");
 }
 /**
  * main - check the code
- * Return: Always 0.
+ * Return: 0
 */
 int main(void)
 {
